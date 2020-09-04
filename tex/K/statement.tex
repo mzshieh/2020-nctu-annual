@@ -1,5 +1,11 @@
-We say a point $(x,y)$ on the 2D-plane is a lattice point if $x$ and $y$ are integers.
-We say a non-degenerated triangle is a ideal triangle if all of its vertices are lattice points.
-You are given an ideal triangle $n$. Please compute the number of lattice points on its boundary.
+Given $n$ lines $L_1,L_2,\ldots,L_n$ where 
+$L_i$ is $a_ix+b_iy=c_i$ for $i\in \{1,2,\dots,n\}$.
+In this problem, all the coefficients $a_i$'s, $b_i$'s and $c_i$'s are integers.
+Two lines intersect if they have some point in common. 
+Such points are called intersections of lines.
 
-Note: the area of a non-degenerated triangle is positive.
+In general, to compute the number of intersections of lines can be hard.
+Tn this problem, you may assume there are no three lines have a common point.
+To save time, if there are more than $10^6$ intersections of lines,
+please output ``\verb+TOO MANY+''.
+Otherwise, please output the number of intersections of lines.

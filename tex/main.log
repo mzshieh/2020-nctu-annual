@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Arch Linux) (preloaded format=xelatex 2020.9.1)  4 SEP 2020 22:03
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Arch Linux) (preloaded format=xelatex 2020.9.1)  4 SEP 2020 23:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1240,26 +1240,11 @@ File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
 
 [20] (./K/statement.tex) (./K/input.tex) (./K/output.tex) (./K/spec.tex)
-(../K/data/sample/1.in) (../K/data/sample/1.ans)
+(../K/data/sample/1.in) (../K/data/sample/1.ans) (../K/data/sample/2.in)
+(../K/data/sample/2.ans)
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
  [21]
-File: image/nctu.png Graphic file (type bmp)
-<image/nctu.png>
- [22] (./L/statement.tex)
-(./L/input.tex) (./L/output.tex) (./L/spec.tex) (../L/data/sample/1.in)
-(../L/data/sample/1.ans) (../L/data/sample/2.in) (../L/data/sample/2.ans)
-File: image/nctu.png Graphic file (type bmp)
-<image/nctu.png>
-
-[23]
-File: image/nctu.png Graphic file (type bmp)
-<image/nctu.png>
- [24] (./M/statement.tex) (./M/input.tex) (./M/output.tex) (./M/spec.tex)
-(../M/data/sample/1.in) (../M/data/sample/1.ans)
-File: image/nctu.png Graphic file (type bmp)
-<image/nctu.png>
- [25]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
  (./main.aux)
@@ -1270,12 +1255,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
  ) 
 Here is how much of TeX's memory you used:
- 29771 strings out of 479284
- 584571 string characters out of 5886221
+ 29725 strings out of 479284
+ 583889 string characters out of 5886221
  908336 words of memory out of 5000000
- 46692 multiletter control sequences out of 15000+600000
+ 46674 multiletter control sequences out of 15000+600000
  536236 words of font info for 53 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,12n,66p,1193b,1121s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (25 pages).
+Output written on main.pdf (21 pages).
