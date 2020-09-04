@@ -1,8 +1,20 @@
-This problem is about to construct a simple directed acyclic graph (DAG) 
-of $n$ vertices and $m$ edges.
-The graph must have the vertex set be $\{1,\ldots,n\}$. Any edge $(u,v)$ in this graph must satisfy $u < v$.
-Any vertex $u$ may have at most $k$ out-going edges.
-And multiple edges are not allowed.
+The classic computer screens can only display text.
+Typically, such a screen has 24 rows and 80 columns.
+Vintage Display Technology Company (VDTC) plans to produce yet another
+kind of old fashioned computer screen. 
+But it is no cool to display only 80 columns on one screen.
+VDTC wants their screens to have enough rows for some classical literature
+under the constraint that each screen may only display 24 rows.
+To ideally display an article on the screen, the following rules may not be
+violated.
+\begin{itemize}
+\tightlist
+\item The words must displayed in the order in the article.
+\item Any of the words must be displayed on exactly one row. 
+\item Any two consecutive words must be separated by a blank or a newline. 
+\end{itemize}
 
-You are given three numbers $n,k,a$ where $n$ is the number of vertices and $k$ is the limit of out-going edges.
-Please determine whether there is a simple DAG such that there are at least $a^n$ paths from $1$ to $n$.
+Your task is to help VDTC to compute how many columns are required to display
+an article. If you manage to write such a program, then VDTC may use the 
+program to analyze articles and determine the ideal number of columns of 
+their new products.
