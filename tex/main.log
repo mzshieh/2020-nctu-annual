@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Arch Linux) (preloaded format=xelatex 2020.9.1)  4 SEP 2020 20:39
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Arch Linux) (preloaded format=xelatex 2020.9.1)  4 SEP 2020 21:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1209,30 +1209,29 @@ File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
  [12] (./G/statement.tex) (./G/input.tex)
 (./G/output.tex) (./G/spec.tex) (../G/data/sample/1.in) (../G/data/sample/1.ans
-) (../G/data/sample/2.in) (../G/data/sample/2.ans)
+)
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
  [13]
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
  [14] (./H/statement.tex) (./H/input.tex) (./H/output.tex) (./H/spec.tex) (../H
+/data/sample/1.in) (../H/data/sample/1.ans)
+File: image/nctu.png Graphic file (type bmp)
+<image/nctu.png>
+ [15]
+File: image/nctu.png Graphic file (type bmp)
+<image/nctu.png>
+ [16] (./I/statement.tex) (./I/input.tex) (./I/output.tex) (./I/spec.tex) (../I
 /data/sample/1.in)
-(../H/data/sample/1.ans) (../H/data/sample/2.in) (../H/data/sample/2.ans)
-File: image/nctu.png Graphic file (type bmp)
-<image/nctu.png>
-
-[15]
-File: image/nctu.png Graphic file (type bmp)
-<image/nctu.png>
- [16] (./I/statement.tex) (./I/input.tex) (./I/output.tex) (./I/spec.tex)
-(../I/data/sample/1.in) (../I/data/sample/1.ans)
+(../I/data/sample/1.ans)
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
  [17]
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
- [18] (./J/statement.tex)
-(./J/input.tex) (./J/output.tex) (./J/spec.tex
+ [18] (./J/statement.tex) (./J/input.tex)
+(./J/output.tex) (./J/spec.tex
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
  [19]) (../J/data/sample/1.in)
@@ -1271,12 +1270,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
  ) 
 Here is how much of TeX's memory you used:
- 29777 strings out of 479284
- 584700 string characters out of 5886221
+ 29765 strings out of 479284
+ 584442 string characters out of 5886221
  908336 words of memory out of 5000000
- 46694 multiletter control sequences out of 15000+600000
+ 46690 multiletter control sequences out of 15000+600000
  536236 words of font info for 53 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 60i,12n,66p,1193b,1563s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,12n,66p,1193b,1121s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on main.pdf (25 pages).
