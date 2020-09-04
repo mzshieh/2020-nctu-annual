@@ -1,13 +1,15 @@
-You are planing your next family trip to a foreign country.
-The number of days of this trip will be between $d$ days to $D$ days.
-This foreign country has $n$ cities (numbered from $0$ to $n-1$) 
-such that there are direct flights between your home town and them.
-The trip can start and end in any of these $n$ cities.
+There is an undirected graph of $n$ vertices and $m$ edges.
+The vertices are numbered from $1$ to $n$.
+Every edge is colored in one of four colors: black, white, gray, and silver.
 
-Your family loves taking trains.
-During the trip, you may stay in a city without any joy or move from one city to another one via train.
-You notice that there are $m$ train routes via which your family will have some joy.
+Your task is to color vertices with black and white under the 
+following constraints.
+\begin{itemize}
+\item At least one endpoint of a black edge is colored in black.
+\item At least one endpoint of a white edge is colored in white.
+\item Two endpoints of a gray edge are colored in different color.
+\item Two endpoints of a silver edge are colored in the same color.
+\end{itemize}
 
-You numbered these $m$ route from $1$ to $m$. Route $i$ starts from city $u_i$ to city $v_i$.
-It gives your family $j_i$ joyness and takes $d_i$ days to travel.
-Please find the maximum average joyness (the total joyness divided by the number of days of your trip) travel plan.
+If there is no way to color the vertices without violating the constraints,
+outpu \verb+NO+. Otherwise, output the colors of the vertices.
