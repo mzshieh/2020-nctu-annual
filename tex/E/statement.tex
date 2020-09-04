@@ -1,0 +1,14 @@
+Kurt's got some equations to solve, help him out! You will be given the following items:
+\begin{itemize}
+\item A prime $p$, integer $2\leq n\leq 200$, integer $1\leq k$
+\item A square matrix $A\mod p$ of size $n\times n$
+\item An integer vector $0\leq b=\left(\begin{array}{c}b_1\\b_2\\\vdots\\b_n\end{array}\right)$ of size $n\times 1$
+\item An integer $k$
+\end{itemize}
+
+Matrix A is guaranteed to be invertible mod p. Try to solve for $x\mod p^k$ where
+$$
+Ax\equiv b\mod p^k
+$$
+It is guaranteed that $p^k<2^{31}$ and $\forall b_i: 0\leq b_i<2^{31}$
+
