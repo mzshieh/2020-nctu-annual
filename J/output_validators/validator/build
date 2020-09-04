@@ -1,0 +1,1 @@
+g++ -O2 validator.cpp -o run
