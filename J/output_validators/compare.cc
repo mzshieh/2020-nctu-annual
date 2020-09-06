@@ -1,34 +1,20 @@
 #include<bits/stdc++.h>
 using namespace std;
 string readYESorNO(){
-    char c;
-    while(true){
-        if((c = getchar())==EOF)return "";
-        if(c!=' '&&c!='\n')break;
-    }
-    string res;
-    while(true){
-       // if(c<'0'||c>'1')throw "not 01 string";
-        res = res + c ;
-        if((c = getchar())==EOF)break;
-        if(c==' '||c=='\n')break;
-    }
-    return res;
+    static char buf[104857601]={'\0'};
+    int count = scanf("%104857600s",buf);
+    if (count <= 0) return string("");
+    return string(buf);
 }
 string readstring(){
-    char c;
-    while(true){
-        if((c = getchar())==EOF)return "";
-        if(c!=' '&&c!='\n')break;
-    }
-    string res;
-    while(true){
-        if(c<'0'||c>'1')throw "not 01 string";
-        res = res + c ;
-        if((c = getchar())==EOF)break;
-        if(c==' '||c=='\n')break;
-    }
-    return res;
+    static char buf[104857601]={'\0'};
+    int count = scanf("%104857600s",buf);
+    if (count <= 0) return string("");
+    for (int i = 0; buf[i]; i++)
+        if (buf[i] != '0' && buf[i] != '1') {
+            throw "not 01 string";
+        }
+    return string(buf);
 }
 int AC(){
     printf("AC\n");
