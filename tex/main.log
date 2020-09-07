@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Arch Linux) (preloaded format=xelatex 2020.9.1)  7 SEP 2020 16:01
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Arch Linux) (preloaded format=xelatex 2020.9.1)  7 SEP 2020 18:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1161,7 +1161,7 @@ File: image/nctu.png Graphic file (type bmp)
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
  [2] (./B/statement.tex
-Overfull \hbox (5.31898pt too wide) in paragraph at lines 37--42
+Overfull \hbox (5.31898pt too wide) in paragraph at lines 41--46
 []\TU/lmr/m/n/12 Let $\OML/cmm/m/it/12 T[]$ \TU/lmr/m/n/12 be the labeled tree 
 corresponding to the random Prüfer code produced by [][]\TU/lmtt/m/n/12 randPru
 fer($\OML/cmm/m/it/12 n$[]\TU/lmtt/m/n/12 )[]\TU/lmr/m/n/12 .
@@ -1172,35 +1172,34 @@ File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
  [3] (./B/output.tex) (./B/spec.tex) (../B/data/sample/1.in)
 (../B/data/sample/1.ans) (../B/data/sample/2.in) (../B/data/sample/2.ans)
-(../B/data/sample/3.in) (../B/data/sample/3.ans)
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
- [4] (./C/statement.tex)
-(./C/input.tex) (./C/output.tex) (./C/spec.tex
+
+[4] (./C/statement.tex) (./C/input.tex) (./C/output.tex) (./C/spec.tex
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
- [5]) (../C/data/sample/1.in)
-(../C/data/sample/1.ans)
+ [5])
+(../C/data/sample/1.in) (../C/data/sample/1.ans)
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
- [6] (./D/statement.tex) (./D/input.tex)
-(./D/output.tex) (./D/spec.tex) (../D/data/sample/1.in) (../D/data/sample/1.ans
-) (../D/data/sample/2.in) (../D/data/sample/2.ans)
+ [6] (./D/statement.tex)
+(./D/input.tex) (./D/output.tex) (./D/spec.tex) (../D/data/sample/1.in)
+(../D/data/sample/1.ans) (../D/data/sample/2.in) (../D/data/sample/2.ans)
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
- [7]
+
+[7]
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
- [8] (./E/statement.tex)
-(./E/input.tex) (./E/output.tex) (./E/spec.tex) (../E/data/sample/1.in)
-(../E/data/sample/1.ans)
+ [8] (./E/statement.tex) (./E/input.tex) (./E/output.tex) (./E/spec.tex)
+(../E/data/sample/1.in) (../E/data/sample/1.ans)
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
  [9]
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
- [10] (./F/statement.tex) (./F/input.tex)
-(./F/output.tex) (./F/spec.tex)
+ [10] (./F/statement.tex)
+(./F/input.tex) (./F/output.tex) (./F/spec.tex)
 File: image/nctu.png Graphic file (type bmp)
 <image/nctu.png>
  [11] (../F/data/sample/1.in)
@@ -1255,10 +1254,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
  ) 
 Here is how much of TeX's memory you used:
- 29725 strings out of 479284
- 583889 string characters out of 5886221
+ 29718 strings out of 479284
+ 583759 string characters out of 5886221
  908336 words of memory out of 5000000
- 46674 multiletter control sequences out of 15000+600000
+ 46672 multiletter control sequences out of 15000+600000
  536236 words of font info for 53 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,12n,66p,1193b,1121s stack positions out of 5000i,500n,10000p,200000b,80000s
