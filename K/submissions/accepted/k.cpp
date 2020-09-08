@@ -1,49 +1,47 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
+#define x first
+#define y second
+#define pii pair<int,int>
+#define mp make_pair
 using namespace std;
 
-struct Line {
-    long long a, b;
-
-    bool operator<(const Line &rhs) const {
-        return a * rhs.b < rhs.a * b;
-    }
-};
-
-int main() {
-    cin.tie(0);
-    cin.sync_with_stdio(0);
-
+int main(){
     int n;
-    cin >> n;
-    assert(1 <= n && n <= 100000);
-
-    map<Line, set<int>> S;
-    for (int i = 0; i < n; i++) {
-        long long a, b, c;
-        cin >> a >> b >> c;
-        assert(-100000 <= a && a <= 100000);
-        assert(-100000 <= b && b <= 100000);
-        assert(-100000 <= c && c <= 100000);
-        assert(!(a == 0 && b == 0));
-        if (S[{a, b}].count(c)) {
-            cout << "TOO MANY" << '\n';
-            return 0;
-        } else {
-            S[{a, b}].insert(c);
+    scanf("%d",&n);
+    set<pair<pii,int>> s;
+    map<pii,int> m;
+    long long ans=0;
+    for(int i = 0;i<n;i++){
+        int a,b,c;
+        scanf("%d %d %d",&a,&b,&c);
+        int gcd=__gcd(__gcd(a,b),c);
+        a/=gcd;
+        b/=gcd;
+        c/=gcd;
+        if(a<0){
+            a*=-1;
+            b*=-1;
+            c*=-1;
         }
+        if(s.find(mp(mp(a,b),c))!=s.end()){
+            printf("TOO MANY\n");
+            return 0;
+        }
+        s.insert(mp(mp(a,b),c));
+        gcd=__gcd(a,b);
+        a/=gcd;
+        b/=gcd;
+        if(a<0){
+            a*=-1;
+            b*=-1;
+        }
+        m[mp(a,b)]++;
     }
-
-    long long ans = (long long)n * (n - 1) / 2;
-    for (auto &p : S) {
-        int m = p.second.size();
-        ans -= (long long)m * (m - 1) / 2;
+    for(auto it:m){
+        ans+=it.y*1ll*(n-it.y);
     }
-
-    if (ans > 1000000) {
-        cout << "TOO MANY" << '\n';
-    } else {
-        cout << ans << '\n';
-    }
-
-    return 0;
+    assert(ans%2==0);
+    if(ans/2>1000000)printf("TOO MANY\n");
+    else
+    printf("%lld\n",ans/2);
 }
