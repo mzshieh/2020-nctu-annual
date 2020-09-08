@@ -20,6 +20,7 @@ int main(){
     }
     for(int i = 0;i<3*n+2;i++){
         cnt[m[a[i]]]++;
+        assert(cnt[m[a[i]]]<=4);
     }
 
     dp[0][0][0][0]=1;
